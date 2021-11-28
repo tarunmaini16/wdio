@@ -1,7 +1,57 @@
-PreRequisite
-1. npm
-2. node
+# Introduction
 
-To build project `npm install`
+This a bare minimum framework setup of WebdriverIO for QA Recruitment Workshop
 
-To run project `npx wdio run wdio.conf.js`
+## Tests Covered:
+
+* UI
+
+## Framework/Languages used:
+
+* Webdriverio
+* JS
+
+## Design Pattern used:
+* Page Object Model _(POM)_
+
+## Prerequisite:
+* npm - 7.24.0
+* node - 16.10.0
+
+## Steps to Run:
+
+1. Clone GIT repository in named directory.
+
+   **_Run:_**
+    ```
+     > cd ~/workspace/
+     > mkdir <wdio_directory_name>
+     > cd <wdio_directory_name>
+     > git clone https://github.com/tarunmaini16/wdio.git
+    ```     
+2. Install all dependencies -
+
+   **_Run:_**
+    ```
+        > cd ~/workspace/<wdio_directory_name>/wdio
+        > npm install
+     ```       
+   **Note**:This will install all dependencies project will be using for executing.
+
+
+3. To run test -
+
+   **_Run:_**
+    ```
+    > cd ~/workspace/<wdio_directory_name>/wdio
+    > npx wdio run wdio.conf.js
+    ```
+    - This will run all tests under wdio directory
+    
+## Author
+
+* Tarun Maini
+
+## References
+
+* https://webdriver.io/
